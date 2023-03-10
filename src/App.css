@@ -41,7 +41,7 @@ span {
 .flex{
   display: grid;
   align-items: center;
-  gap: 20rem;
+  gap: 15rem;
   grid-template-columns: 200px 200px 200px;
 }
 .container{
@@ -128,9 +128,11 @@ button {
     font-size: 56%;
   }
 
-  .card {
-    min-width: 45rem;
-    padding: 2.5rem;
+  .flex {
+    min-width: 55rem; 
+    gap: 2rem;
+    display: grid;
+    grid-template-columns:  900px 900px;
   }
 }
 
@@ -139,8 +141,9 @@ button {
     font-size: 51%;
   }
 
-  .card {
+  .flex {
     min-width: 35rem;
-    padding: 2rem;
+    display: grid;
+    grid-template-columns: 200px 200px;
   }
 }
